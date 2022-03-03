@@ -7,8 +7,11 @@
     <title>User</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="./script/sidebar.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 </head>
 <body>
+
+<?php include './components/sidebar.php'; ?>
   <!-- Box -->
 <div class="bg-white block sm:mt-20">
     <div class="max-w-2xl mx-auto shadow-lg font-sans">
@@ -16,7 +19,7 @@
        <!--Profile Picture-->
         <div class="w-full">
             <div class="w-full bg-dark-blue h-28 rounded-t-lg">
-                <h3 class="text-2xl font-bold text-right text-white mr-9 pt-9 ">Profile</h3>
+                <h3 class="text-2xl font-bold text-right text-white mr-9 pt-9">Profile</h3>
             </div>
             <div class="absolute -mt-24 ml-5">
                 <img src="./image/adrian.jpg" alt="" class="bg-gray-500 border h-40 w-40 rounded-lg shadow-lg border-b">

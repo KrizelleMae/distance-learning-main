@@ -62,12 +62,12 @@
 
         <div class="mt-16 float-right">
           <button
-            class="uk-button uk-button-default uk-modal-close"
-            type="button"
+            class="py-2 px-4 rounded border border-red-800 text-red-800 font-bold uk-modal-close hover:bg-red-200 mr-3"
+            
           >
             Cancel
           </button>
-          <button class="uk-button bg-blue text-white">Save</button>
+          <button class="py-2 px-4 border border-blue-800 rounded bg-blue text-white">Save changes</button>
         </div>
       </div>
     </div>

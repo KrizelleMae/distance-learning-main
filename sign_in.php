@@ -22,7 +22,7 @@
                class="bg-sky-200 p-4 login-btn mt-5 w-100 rounded-full"
                value="Sign in"
                name="login"
-            /
+            />
          </div>
       </form>
    </body>

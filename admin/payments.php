@@ -22,7 +22,7 @@ $stat = "payment";
      
       <script src="../tailwind/tailwind-cdn.js"></script>
    </head>
-   <body class="bg-gray-100 h-full">
+   <body class="bg-gray-100 h-screen">
       <?php include './components/navbar.php'; ?>
       <div class="container mx-auto mt-10">
          <div class="flex items-center mb-13">

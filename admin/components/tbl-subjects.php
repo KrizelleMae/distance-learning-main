@@ -1,9 +1,7 @@
 <div class="flex flex-col">
   <div class="overflow-x-auto sm:-mx-8">
     <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-      <div
-        class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg"
-      >
+      <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded">
         <table class="table-auto min-w-full divide-y divide-gray-200">
           <thead class="tb-head">
             <tr>
@@ -41,6 +39,8 @@
               >
                 Professor
               </th>
+
+              <th></th>
             </tr>
           </thead>
           <tbody class="bg-white divide-y divide-gray-400">
@@ -81,6 +81,14 @@
 
               <td class="px-6 py-3 whitespace-nowrap">
                 <div class="text-sm text-gray-900">Professor 1 Full name</div>
+              </td>
+
+              <td>
+                <a href="#modal-sections" uk-toggle>
+                  <i
+                    class="fa fa-trash p-3 text-green-800 font-semibold mr-3"
+                  ></i
+                ></a>
               </td>
             </tr>
 

@@ -21,7 +21,7 @@ $stat = "assessment";
     <link rel="stylesheet" href="../css/dashboard.css" />
     <link rel="stylesheet" href="../css/navbar.css" />
   </head>
-  <body class="bg-gray-100 h-full">
+  <body class="bg-gray-100 h-screen">
     <?php include './components/navbar.php'; ?>
     <div class="container mx-auto mt-10">
       <div class="flex items-center mb-13">

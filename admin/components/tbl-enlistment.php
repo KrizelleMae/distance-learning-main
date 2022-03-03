@@ -27,6 +27,12 @@
                   scope="col"
                   class="px-6 py-5 text-left text-sm font-medium text-white uppercase tracking-wider"
                 >
+                  Email
+                </th>
+                <th
+                  scope="col"
+                  class="px-6 py-5 text-left text-sm font-medium text-white uppercase tracking-wider"
+                >
                   program
                 </th>
 
@@ -34,7 +40,7 @@
                   scope="col"
                   class="px-6 py-5 text-left text-sm font-medium text-white uppercase tracking-wider"
                 >
-                  Email
+                  Year & Section
                 </th>
 
                 <th
@@ -43,14 +49,6 @@
                 >
                   Remarks
                 </th>
-
-                <th
-                  scope="col"
-                  class="px-6 py-5 text-left text-sm font-medium text-white uppercase tracking-wider"
-                >
-                  Status
-                </th>
-                <th class="px-4"></th>
               </tr>
             </thead>
             <tbody class="bg-white divide-y divide-gray-200">
@@ -73,9 +71,15 @@
                                     Optimization
                                  </div> -->
                 </td>
-
+                <td class="px-5 py-5 whitespace-nowrap text-md text-gray-900">
+                  <div class="text-sm text-gray-900">random@gmail.com</div>
+                </td>
                 <td class="px-5 py-3 whitespace-nowrap">
                   <div class="text-sm text-gray-900">Masters in Education</div>
+                </td>
+
+                <td class="px-5 py-3 whitespace-nowrap">
+                  <div class="text-sm text-gray-900">Masteral - BEED 1A</div>
                 </td>
 
                 <!-- <td class="px-5 py-3 whitespace-nowrap">
@@ -85,27 +89,9 @@
                                     Active
                                  </span>
                               </td> -->
-                <td class="px-5 py-5 whitespace-nowrap text-md text-gray-900">
-                  <div class="text-sm text-gray-900">random@gmail.com</div>
-                </td>
 
                 <td class="px-5 py-3 whitespace-nowrap">
-                  <div class="text-xs textt-gray-900">Remarks here ----</div>
-                </td>
-
-                <td class="px-5 py-3 whitespace-nowrap">
-                  <span
-                    class="bg-red-100 text-red-800 text-xs font-bold mr-2 px-2.5 py-0.5 rounded"
-                    >unsaved</span
-                  >
-                </td>
-
-                <td>
-                  <a href="#modal-sections" uk-toggle>
-                    <i
-                      class="fa fa-eye p-3 rounded bg-green-700 text-white mr-3"
-                    ></i
-                  ></a>
+                  <div class="text-xs text-gray-800">Remarks here ----</div>
                 </td>
               </tr>
             </tbody>
